@@ -4,6 +4,10 @@
   <a href="README-CN.md"><strong>中文</strong></a>
 </p>
 
+<p align="center">
+  <img src="assets/hero.svg" alt="github-management" width="100%">
+</p>
+
 # github-management
 
 `github-management` 是一个面向 Codex 的 GitHub 仓库管理技能包，用于让 AI 编码代理更稳妥地处理 GitHub 认证、仓库检查、PR、Issue、CI、Release 和安全审计相关任务。

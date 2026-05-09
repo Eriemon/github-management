@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/hero.svg" alt="github-management" width="100%">
+</p>
+
+<p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-1f6feb"></a>
   <a href="pyproject.toml"><img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-2f81f7"></a>
   <img alt="Version" src="https://img.shields.io/badge/version-v0.1.0-7c3aed">
