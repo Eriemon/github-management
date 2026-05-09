@@ -1,4 +1,4 @@
 interface:
   display_name: "GitHub Management"
-  short_description: "Manage GitHub repos, PRs, CI, and auth."
-  default_prompt: "Use this skill to configure GitHub authentication safely, inspect repository state, summarize risks, and require confirmation before mutating GitHub resources."
+  short_description: "Agent skill for safe GitHub repo, PR, issue, CI, release, and security workflows."
+  default_prompt: "Use this skill for GitHub management: configure authentication safely, inspect repositories, PRs, issues, checks, releases, and security posture, summarize risks, and require confirmation before mutating GitHub resources."

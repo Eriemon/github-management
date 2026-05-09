@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "github-management-skill"
 version = "0.1.0"
-description = "Agent-usable Codex skill for conservative GitHub repository management workflows."
+description = "Codex Agent skill for safe GitHub management workflows across PRs, issues, CI, releases, repository hygiene, and security audits."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
 authors = [{ name = "Jiyuan Liu", email = "erie@seu.edu.cn" }]
-keywords = ["codex-skill", "agent-skill", "github", "gh-cli", "repository-management", "security-audit"]
+keywords = ["codex-skill", "agent-skill", "github", "github-management", "gh-cli", "repository-management", "pull-requests", "issue-triage", "github-actions", "security-audit"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",

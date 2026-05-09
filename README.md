@@ -19,16 +19,16 @@
 <h1 align="center">github-management</h1>
 
 <p align="center">
-  A Codex-ready agent skill for conservative GitHub repository management.
+  A Codex-ready Agent skill for safe, searchable, and reviewable GitHub management workflows.
 </p>
 
-`github-management` turns an AI coding agent into a careful GitHub operator. It provides trigger metadata, safety rules, authentication guidance, read-only inspection helpers, and reference workflows for repository, pull request, CI, release, issue, and security-audit tasks.
+`github-management` is an **Agent skill for GitHub management**. It helps Codex and other AI coding agents safely inspect, triage, and operate GitHub repositories through `gh` CLI and GitHub API workflows for pull requests, issues, CI checks, GitHub Actions, releases, repository hygiene, security audits, dependency alerts, and governance tasks.
 
-This repository is primarily an **agent skill package**. The Python scripts are deterministic helper tools, while the main interface is the skill surface an agent can load and follow.
+This repository is primarily a **Codex Agent skill package**. `SKILL.md` defines the agent behavior and safety contract; the Python scripts provide deterministic helper tools for read-only inspection and structured GitHub data collection.
 
 ## Why It Exists
 
-GitHub operations can alter shared history, releases, permissions, labels, issues, and repository settings. This skill makes the agent collect facts first, verify authentication, summarize risk, and ask for explicit confirmation before any mutating action.
+GitHub management work has a wide blast radius: a single action can alter shared history, releases, permissions, labels, issues, branch protection, repository settings, or security posture. This skill makes the agent collect facts first, verify authentication, summarize risk, and require explicit confirmation before any mutating action.
 
 Use it when an agent needs to work on:
 
@@ -36,7 +36,8 @@ Use it when an agent needs to work on:
 - Pull request inspection, review comments, and check status collection.
 - GitHub Actions and CI diagnostics.
 - Issue triage, release inspection, and repository hygiene.
-- Security best-practice review, threat modeling, and ownership mapping.
+- Security best-practice review, dependency-alert handling, threat modeling, and ownership mapping.
+- Repository governance tasks such as labels, milestones, branch protection, settings review, and release readiness checks.
 
 ## Workflow
 

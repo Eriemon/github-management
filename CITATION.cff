@@ -11,4 +11,4 @@ date-released: "2026-05-09"
 license: Apache-2.0
 repository-code: "https://github.com/Eriemon/github-management"
 url: "https://github.com/Eriemon/github-management"
-abstract: "A Codex-ready agent skill for conservative GitHub repository management workflows with authentication guidance, read-only inspection helpers, and explicit confirmation gates for mutations."
+abstract: "A Codex Agent skill for safe GitHub management workflows across repositories, pull requests, issues, CI, releases, repository hygiene, dependency alerts, and security audits, with authentication guidance, read-only inspection helpers, and explicit confirmation gates for mutations."

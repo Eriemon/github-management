@@ -10,16 +10,17 @@
 
 # github-management
 
-`github-management` 是一个面向 Codex 的 GitHub 仓库管理技能包，用于让 AI 编码代理更稳妥地处理 GitHub 认证、仓库检查、PR、Issue、CI、Release 和安全审计相关任务。
+`github-management` 是一个**服务于 GitHub 管理的 Agent 技能**。它让 Codex 和其他 AI 编码代理能够通过 `gh` CLI 与 GitHub API，更稳妥地检查、分流和管理 GitHub 仓库，覆盖 PR、Issue、CI 检查、GitHub Actions、Release、仓库卫生、安全审计、依赖告警和治理类任务。
 
-这个仓库主要是 **agent skill package**。其中的 Python 脚本是确定性的辅助工具，核心入口仍然是 `SKILL.md` 中定义的技能触发规则和工作流程。
+这个仓库主要是 **Codex Agent skill package**。`SKILL.md` 定义代理行为和安全契约；Python 脚本提供确定性的只读检查和结构化 GitHub 数据采集能力。
 
 ## 适用场景
 
 - 配置和检查 GitHub `gh` CLI 认证状态。
 - 只读检查 PR、Review 评论、检查项和 CI 状态。
 - 进行 Issue 分流、Release 检查和仓库卫生审计。
-- 执行安全最佳实践 review、威胁建模和 ownership map 分析。
+- 执行安全最佳实践 review、依赖告警处理、威胁建模和 ownership map 分析。
+- 支持标签、里程碑、分支保护、仓库设置检查和发布前风险确认等治理任务。
 - 在任何 GitHub 写操作前收集事实、总结风险并要求明确确认。
 
 ## 核心流程
