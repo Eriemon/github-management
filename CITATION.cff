@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "github-management: An Agent Skill for Conservative GitHub Repository Management"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Jiyuan
+    email: erie@seu.edu.cn
+version: "0.1.0"
+date-released: "2026-05-09"
+license: Apache-2.0
+repository-code: "https://github.com/Eriemon/github-management"
+url: "https://github.com/Eriemon/github-management"
+abstract: "A Codex-ready agent skill for conservative GitHub repository management workflows with authentication guidance, read-only inspection helpers, and explicit confirmation gates for mutations."

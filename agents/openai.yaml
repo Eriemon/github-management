@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Management"
+  short_description: "Manage GitHub repos, PRs, CI, and auth."
+  default_prompt: "Use this skill to configure GitHub authentication safely, inspect repository state, summarize risks, and require confirmation before mutating GitHub resources."

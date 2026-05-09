@@ -1,0 +1,11 @@
+{
+  "github_host": "github.com",
+  "token_file": "config/token",
+  "token_env": "GITHUB_TOKEN",
+  "required_scopes": [
+    "repo"
+  ],
+  "token_type": "classic",
+  "expiry_days_recommended": 90,
+  "push_helper": "~/github-push.sh"
+}
