@@ -9,7 +9,10 @@ description = "Codex Agent skill for safe GitHub management workflows across PRs
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
-authors = [{ name = "Jiyuan Liu", email = "erie@seu.edu.cn" }]
+authors = [
+  { name = "Jiyuan Liu", email = "erie@seu.edu.cn" },
+  { name = "He Li" },
+]
 keywords = ["codex-skill", "agent-skill", "github", "github-management", "gh-cli", "repository-management", "pull-requests", "issue-triage", "github-actions", "security-audit"]
 classifiers = [
   "Development Status :: 3 - Alpha",

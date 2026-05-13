@@ -6,6 +6,10 @@ authors:
   - family-names: Liu
     given-names: Jiyuan
     email: erie@seu.edu.cn
+    affiliation: Southeast University
+  - family-names: Li
+    given-names: He
+    affiliation: Southeast University
 version: "0.1.0"
 date-released: "2026-05-09"
 license: Apache-2.0
